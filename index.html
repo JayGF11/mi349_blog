@@ -81,7 +81,11 @@
             </p>
 
             <h3 class="subtopic">Phase Busted</h3>
-            <p>
+                <figure id="graph">
+                    <img src="graph.png" alt="Graph shows protein synthesis during fat loss." width=300 height=201>
+                    <figcaption>Graph or Mass Change (Kg) in relation to Protein (%).</figcaption> 
+                </figure>
+                <p>
                 There are many people who still believe in the phasing method. You can't 
                 blame them because the traditional method makes sense. The bulking phase 
                 allows the body to put on as much mass as possible whether it is fat or
@@ -94,17 +98,14 @@
                 present in the traditional method. You can actually lose fat while building
                 muscle. The key here is to increase protein consumption and still be
                 in a caloric defecit.
-            </p>
-            <p><img src="graph.png" alt="Graph shows protein synthesis during fat loss." width=384 height=258></p>
 
-            <p>
                 The graph shows stats of mass change for people in a caloric defecit. Shown 
                 on the left is people who consume only 5% of their calories from protein 
                 compared to 15% and 25%. We can conclude that protein synthesis occurs when
                 you consume at least 15% of calories from protein while still reducing fat 
                 mass. The optimal percentage may be between 15% and 25% so stick to about 
                 20% daily calories from protein. 
-            </p>
+                </p>
 
             <table id="intake">
                 <tr>
@@ -140,12 +141,31 @@
         </article>
 
     </section>
+
+    <div id="twoCol">
+        <p class="twoColP">The left coloumn of the two colomn-flexbox.</p>
+        <p class="twoColP">The right coloumn of the two colomn-flexbox.</p>
+    </div>
+    <div id="thrCol"> 
+        <p id="thrColL">The left coloumn of the three colomn-flexbox.</p>
+        <p id="thrColM">The middle coloumn of the three colomn-flexbox.</p>
+        <p id="thrColR">The right coloumn of the three colomn-flexbox.</p>
+    </div>
+    
     <section>
         <h3>Sign up for our newsletters:</h3>
         <form>
             <input type="text">
             <button>Subscribe</button>
         </form>
+        
+        <form id="multiForm">
+            <input class="multiInput" type="text" placeholder="First name">
+            <input class="multiInput" type="text" placeholder="Middle initial">
+            <input class="multiInput" type="text" placeholder="Last name">
+            <button>Submit</button>
+        </form>
+
     </section>
     
 </body>

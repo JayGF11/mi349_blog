@@ -40,6 +40,14 @@ time {
     color: gray;
 }
 
+figcaption {
+    font-size: 10px;
+}
+
+table {
+    margin-bottom: 50px;
+}
+
 #intake th{
     background-color: lightgreen;
     padding: 10px;
@@ -47,5 +55,60 @@ time {
 
 #intake th, #intake td {
     border: 1px solid #ddd;
-    padding: px;
+    padding: 5px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background: whitesmoke;
+}
+
+#graph {
+    float: right;
+}
+
+#twoCol {
+    background: whitesmoke;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.twoColP {
+    background: lightgray;
+    padding: 20px;
+    margin: 20px;
+}
+
+#thrCol {
+    background: whitesmoke;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#thrColL, #thrColM, #thrColR {
+    background: lightgray;
+    padding: 20px;
+    margin: 20px;
+}
+
+#thrColL {
+    flex: 2;
+}
+
+#thrColM {
+    flex: 5;
+}
+
+#thrColR {
+    flex: 2;
+}
+
+#multiForm {
+    display: flex;
+    margin: 20px;
+}
+
+.multiInput {
+    margin: 10px;
 }
